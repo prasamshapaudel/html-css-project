@@ -1,0 +1,39 @@
+/* Services Section */
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing:border-box;
+}
+
+body{
+    background:url(./images/bg.jpg);
+}
+#services{
+    margin: 34px;
+    display: flex;
+    
+}
+h1{
+    text-align-last: center;
+    font-size: 30px;;
+    color:red;
+}
+#services .box{ 
+    border: 2px solid brown;
+    padding: 25px;
+    margin: 2px 55px;
+    border-radius: 28px;
+    background: #f2f2f2;
+    margin-bottom: 20px;
+}
+#services .box img{ 
+   height: 190px;
+   width:70%;
+   margin-left: 30px;
+   margin-right: 80px;
+}
+#services .box p{
+    font-family: 'Bree Serif', serif;
+
+} 
+

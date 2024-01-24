@@ -1,0 +1,68 @@
+*{
+    margin: 0px;
+    padding:0px;
+    box-sizing:border-box;
+}
+body{
+    background:url(images/con1.jpg);
+    box-sizing: border-box;
+    margin:0px;
+    padding:0px;
+    background-repeat:no-repeat;
+    background-size:100%;
+}
+#contact{
+    position: relative;
+    font-size:1.2rem;
+    text-decoration-line: underline;
+    color:black;
+}
+ #contact-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 34px;
+    margin-top:5px;
+}
+#contact-box input{
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 9px;
+    font-size: 1.1rem;
+    margin-left:0px;
+} 
+#contact-box form{
+    width: 40%;
+}
+#contact-box label{
+   font-size: 1.3rem;
+   font-family: 'Bree Serif', serif;
+}
+footer{
+    margin:0px;
+    padding-bottom:0px; 
+    background: black;
+    color: white;
+    padding: 9px 20px;
+}
+.center{
+    text-align: center;
+}
+.btn{
+    color:black;
+    padding: 3px 22px;
+    border-radius: 20px;
+    margin-left:90px;
+    font-size:1.1rem;
+    background-color: rgb(255, 29, 29);
+}
+.btn:hover{
+    background-color:grey;
+    cursor: pointer;
+}
+.signup_box{
+    width:600px;
+    height:400px;
+    margin:auto;
+    background:url(./images/form1.jpg)
+}
